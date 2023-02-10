@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    /* width: 70%; */
+    justify-content: space-evenly;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+nav a{
+    text-decoration: none;
+    font: 700 1.4rem sans-serif;
+}
+
+.place{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+.place form{
+    border: 2px double black;
+    padding: 1rem;
+}
