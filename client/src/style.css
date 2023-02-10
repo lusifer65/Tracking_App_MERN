@@ -1,27 +1,135 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-nav{
-    display: flex;
-    /* width: 70%; */
-    justify-content: space-evenly;
-    border: 1px solid black;
-    padding: 1rem;
-    border-radius: 1rem;
+nav {
+  display: flex;
+  /* width: 70%; */
+  justify-content: space-evenly;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 1rem;
 }
-nav a{
-    text-decoration: none;
-    font: 700 1.4rem sans-serif;
+nav a {
+  text-decoration: none;
+  font: 700 1.4rem sans-serif;
 }
 
-.place{
-    display: flex;
-    justify-content: center;
-    padding: 3rem;
+.place {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 0.5rem;
 }
-.place form{
-    border: 2px double black;
-    padding: 1rem;
+.place form {
+  border: 2px double black;
+  border-radius: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font: 600 18px sans-serif;
+}
+.place form div {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+.place form div select {
+  border: none;
+  border-bottom: 3px solid black;
+  width: 55%;
+  padding: 5px;
+  font: 500 1rem sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+}
+.place form div input {
+  text-align: center;
+  padding: 5px;
+  border: none;
+  font: 500 1rem sans-serif;
+
+  border-bottom: 3px solid black;
+}
+.place form textarea {
+  border-radius: 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  font: 400 18px sans-serif;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font: 600 1.1rem "cursive";
+}
+.btn {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-evenly !important;
+}
+
+.btn button {
+  padding: 0.5rem;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+
+.sucess {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.sucess h1 {
+  text-align: center;
+}
+.sucess table tbody tr td {
+  text-align: center;
+  font: 500 1.1rem sans-serif;
+}
+
+.track {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+  align-items: center;
+}
+
+#trackForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font: 700 1.4rem sans-serif;
+}
+
+.track span {
+  color: red;
+  font: 700 1.2rem "sans-serif";
+}
+#trackForm input {
+  text-align: center;
+  padding: 5px;
+  font: 700 1.2rem sans-serif;
+}
+
+#trackForm button {
+  font: 700 1rem sans-serif;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.summery{
+  text-align: center;
+  font: 600 18px sans-serif;
 }

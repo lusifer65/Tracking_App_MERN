@@ -25,7 +25,6 @@ class OrderController {
     const { product, model, quantity, address, price } = req.body;
     const date = new Date();
     let currentDate = new Date(Date.now()).valueOf().toString();
-    console.log(currentDate);
     try {
       let id=this.genrateId()
       if (product && model && quantity && address && price) {
