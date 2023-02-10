@@ -1,70 +1,24 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+home page:
+![image](https://user-images.githubusercontent.com/42277681/218060169-67106eb2-ba1c-49fd-bd44-0c18acee6f19.png)
 
-## Available Scripts
+place_order:
+![image](https://user-images.githubusercontent.com/42277681/218060285-b043e0da-2416-4470-9742-feb80bca4ce1.png)
 
-In the project directory, you can run:
+after place order:
+![image](https://user-images.githubusercontent.com/42277681/218060549-c3cb9060-a825-49a7-acb6-796cc1c6e36e.png)
 
-### `npm start`
+check status
+![image](https://user-images.githubusercontent.com/42277681/218060677-1c41d3e6-e991-48ed-b764-41014218bb7e.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+track order:
+![image](https://user-images.githubusercontent.com/42277681/218060842-53b73f24-74af-4200-9fb0-3e95edc6a34c.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+if order id is not present in database:
+![image](https://user-images.githubusercontent.com/42277681/218061134-75768de3-4672-4959-88b7-a47c78bd0c29.png)
 
-### `npm test`
+the order id is start with "OD" with 4 number 
+![image](https://user-images.githubusercontent.com/42277681/218061314-c35f66ec-7bbd-4716-b97c-14ed3ddaf159.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+if order id is present in database:
+![image](https://user-images.githubusercontent.com/42277681/218061388-24dffcba-6220-4011-8013-03c34ac0d74d.png)
